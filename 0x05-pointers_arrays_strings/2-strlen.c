@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string.
+ * int_strlen - returns the length of a string.
  * @s: char to check the length
  * Return 0
  */
 
-int _strlen(char *s)
+int_strlen(char *s)
 {
 	int longi = 0;
 
