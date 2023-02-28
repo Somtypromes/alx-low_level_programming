@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * puts2 - funtion should print only one character out of two
+ * puts2 - print strings
  * starting with the first one
- * @str: input
- * Return 0
+ * @str: funtion parameter
+ * Return: 0
  */
 
 void puts2(char *str)
 
 {
-	int i;
+	int o;
 
-	for (i = 0 ; str[i] != '\0' ; i++)
+	for (o = 0 ; str[o] != '\0' ; i++)
 	{
-		_putchar(str[i]);
+		_putchar(str[o]);
 		i++;
 	}
 	_putchar('\n');
